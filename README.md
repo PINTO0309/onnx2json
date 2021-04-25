@@ -22,7 +22,7 @@ optional arguments:
   -h, --help
                         show this help message and exit
   --model_path MODEL_PATH
-                        Input onnx model path (*.onnx)
+                        Input ONNX model path (*.onnx)
   --json_path JSON_PATH
                         Output JSON file path (*.json)
   --json_indent JSON_INDENT
