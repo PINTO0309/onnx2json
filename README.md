@@ -1,5 +1,5 @@
 # onnx2json
-Exports the ONNX file to a JSON file.  
+Exports the ONNX file to a JSON file. Click here for **[json2onnx](https://github.com/PINTO0309/json2onnx)**.  
   
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/onnx2json?color=2BAF2B&label=Downloads%EF%BC%8FInstalled)](https://pypistats.org/packages/onnx2json) ![GitHub](https://img.shields.io/github/license/PINTO0309/onnx2json?color=2BAF2B) [![PyPI](https://img.shields.io/pypi/v/onnx2json?color=2BAF2B)](https://pypi.org/project/onnx2json/)
 
