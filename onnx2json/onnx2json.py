@@ -9,7 +9,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_path', type=str, required=True, help='Input onnx model path (*.onnx)')
+    parser.add_argument('--model_path', type=str, required=True, help='Input ONNX model path (*.onnx)')
     parser.add_argument('--json_path', type=str, default='', help='Output JSON file path (*.json)')
     parser.add_argument('--json_indent', type=int, default=2, help='Number of indentations in JSON (default=2)')
     args = parser.parse_args()
