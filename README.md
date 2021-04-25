@@ -6,6 +6,7 @@ Exports the ONNX file to a JSON file.
 ## 1. Install
 
 ```
+$ pip install protobuf
 $ pip install onnx2json --upgrade
 ```
 
