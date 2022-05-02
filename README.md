@@ -1,8 +1,8 @@
 # onnx2json
-Exports the ONNX file to a JSON file and JSON dict. Click here for **[json2onnx](https://github.com/PINTO0309/json2onnx)**.  
-  
+Exports the ONNX file to a JSON file and JSON dict. Click here for **[json2onnx](https://github.com/PINTO0309/json2onnx)**.
+
 https://github.com/PINTO0309/simple-onnx-processing-tools
-  
+
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/onnx2json?color=2BAF2B&label=Downloads%EF%BC%8FInstalled)](https://pypistats.org/packages/onnx2json) ![GitHub](https://img.shields.io/github/license/PINTO0309/onnx2json?color=2BAF2B) [![PyPI](https://img.shields.io/pypi/v/onnx2json?color=2BAF2B)](https://pypi.org/project/onnx2json/)
 
 ## 1. Setup
@@ -35,7 +35,7 @@ $ cd /workdir
 usage:
   onnx2json [-h]
   --input_onnx_file_path INPUT_ONNX_FILE_PATH
-  [--output_json_path OUTPUT_JSON_PATH]
+  --output_json_path OUTPUT_JSON_PATH
   [--json_indent JSON_INDENT]
 
 optional arguments:
@@ -72,20 +72,20 @@ convert(
         Input onnx file path.
         Either input_onnx_file_path or onnx_graph must be specified.
         Default: ''
-    
+
     onnx_graph: Optional[onnx.ModelProto]
         onnx.ModelProto.
         Either input_onnx_file_path or onnx_graph must be specified.
         onnx_graph If specified, ignore input_onnx_file_path and process onnx_graph.
-    
+
     output_onnx_file_path: Optional[str]
         Output onnx file path. If not specified, no ONNX file is output.
         Default: ''
-    
+
     json_indent: Optional[int]
         Number of indentations in JSON.
         Default: 2
-    
+
     Returns
     -------
     onnx_json: dict

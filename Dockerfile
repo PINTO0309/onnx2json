@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install -U onnx \
+RUN pip install -U onnx protobuf \
     && python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com \
     && pip install -U onnx-simplifier \
     && pip install -U onnx2json
