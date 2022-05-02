@@ -98,10 +98,8 @@ def main():
     parser.add_argument(
         '--output_json_path',
         type=str,
-        default='',
-        help=\
-            'Output JSON file path (*.json) \n'+
-            'If not specified, no JSON file is output.'
+        required=True,
+        help='Output JSON file path (*.json)'
     )
     parser.add_argument(
         '--json_indent',
