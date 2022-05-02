@@ -1,5 +1,5 @@
 # onnx2json
-Exports the ONNX file to a JSON file. Click here for **[json2onnx](https://github.com/PINTO0309/json2onnx)**.  
+Exports the ONNX file to a JSON file and JSON dict. Click here for **[json2onnx](https://github.com/PINTO0309/json2onnx)**.  
   
 https://github.com/PINTO0309/simple-onnx-processing-tools
   
