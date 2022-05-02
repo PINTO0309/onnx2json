@@ -13,7 +13,7 @@ $ echo export PATH="~/.local/bin:$PATH" >> ~/.bashrc \
 && source ~/.bashrc
 
 ### run
-$ pip install -U onnx \
+$ pip install -U onnx protobuf \
 && python3 -m pip install -U onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com \
 && pip install -U onnx2json
 ```
