@@ -1,3 +1,13 @@
+.vscode/
+saved_model/
 build/
 dist/
 onnx2json.egg-info/
+onnx2json/debug/
+onnx2json/saved_model/
+__pycache__/
+test.py
+
+*.onnx
+*.npy
+*.json
