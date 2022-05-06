@@ -18,17 +18,7 @@ $ pip install -U onnx protobuf \
 && pip install -U onnx2json
 ```
 ### 1-2. Docker
-```bash
-### docker pull
-$ docker pull pinto0309/onnx2json:latest
-
-### docker build
-$ docker build -t pinto0309/onnx2json:latest .
-
-### docker run
-$ docker run --rm -it -v `pwd`:/workdir pinto0309/onnx2json:latest
-$ cd /workdir
-```
+https://github.com/PINTO0309/simple-onnx-processing-tools#docker
 
 ## 2. CLI Usage
 ```bash
