@@ -106,3 +106,6 @@ onnx_json = convert(
   onnx_graph=graph,
 )
 ```
+
+## 6. Issues
+https://github.com/PINTO0309/simple-onnx-processing-tools/issues
