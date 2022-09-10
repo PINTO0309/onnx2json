@@ -90,18 +90,21 @@ def convert(
 def main():
     parser = ArgumentParser()
     parser.add_argument(
+        '-if',
         '--input_onnx_file_path',
         type=str,
         required=True,
         help='Input ONNX model path. (*.onnx)'
     )
     parser.add_argument(
+        '-oj',
         '--output_json_path',
         type=str,
         required=True,
         help='Output JSON file path (*.json)'
     )
     parser.add_argument(
+        '-i',
         '--json_indent',
         type=int,
         default=2,

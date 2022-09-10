@@ -26,24 +26,24 @@ $ pip install -U onnx protobuf \
 https://github.com/PINTO0309/simple-onnx-processing-tools#docker
 
 ## 2. CLI Usage
-```bash
+```
 usage:
   onnx2json [-h]
-  --input_onnx_file_path INPUT_ONNX_FILE_PATH
-  --output_json_path OUTPUT_JSON_PATH
-  [--json_indent JSON_INDENT]
+  -if INPUT_ONNX_FILE_PATH
+  -oj OUTPUT_JSON_PATH
+  [-i JSON_INDENT]
 
 optional arguments:
   -h, --help
       show this help message and exit
 
-  --input_onnx_file_path INPUT_ONNX_FILE_PATH
+  -if INPUT_ONNX_FILE_PATH, --input_onnx_file_path INPUT_ONNX_FILE_PATH
       Input ONNX model path. (*.onnx)
 
-  --output_json_path OUTPUT_JSON_PATH
+  -oj OUTPUT_JSON_PATH, --output_json_path OUTPUT_JSON_PATH
       Output JSON file path (*.json) If not specified, no JSON file is output.
 
-  --json_indent JSON_INDENT
+  -i JSON_INDENT, --json_indent JSON_INDENT
       Number of indentations in JSON. (default=2)
 ```
 
