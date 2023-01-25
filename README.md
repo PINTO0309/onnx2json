@@ -73,8 +73,8 @@ convert(
         Either input_onnx_file_path or onnx_graph must be specified.
         onnx_graph If specified, ignore input_onnx_file_path and process onnx_graph.
 
-    output_onnx_file_path: Optional[str]
-        Output onnx file path. If not specified, no ONNX file is output.
+    output_json_path: Optional[str]
+        Output JSON file path (*.json) If not specified, no JSON file is output.
         Default: ''
 
     json_indent: Optional[int]
